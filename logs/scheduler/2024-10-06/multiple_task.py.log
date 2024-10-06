@@ -1,0 +1,22 @@
+[2024-10-06T04:56:56.201+0000] {processor.py:186} INFO - Started process (PID=5680) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:56.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:56:56.203+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:56.213+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_marcell' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:56.311+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.311+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:multiple_tasks_marcell
+[2024-10-06T04:56:56.324+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.324+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:multiple_tasks_marcell
+[2024-10-06T04:56:56.335+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.334+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:multiple_tasks_marcell
+[2024-10-06T04:56:56.350+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.350+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:multiple_tasks_marcell
+[2024-10-06T04:56:56.360+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.359+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:multiple_tasks_marcell
+[2024-10-06T04:56:56.368+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.368+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:multiple_tasks_marcell
+[2024-10-06T04:56:56.376+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.376+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:multiple_tasks_marcell
+[2024-10-06T04:56:56.376+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:56:56.389+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.388+0000] {dag.py:3262} INFO - Creating ORM DAG for multiple_tasks_marcell
+[2024-10-06T04:56:56.398+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:56.397+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_marcell to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:56:56.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.218 seconds
+[2024-10-06T04:57:26.556+0000] {processor.py:186} INFO - Started process (PID=5744) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:26.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:57:26.558+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:26.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:26.565+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_marcell' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:26.583+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:26.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:57:26.606+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:26.605+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_marcell to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:57:26.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.077 seconds
